@@ -1,0 +1,207 @@
+body, html {
+	margin: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+#Home, #About, #Publications, #News, #Videos {
+	margin: 0px;
+	padding-top: 52px;
+	padding-bottom: 40px;
+}
+
+
+/*NAVIGATION BAR*/
+.navbar-inverse .navbar-nav>li>a, .navbar-inverse .navbar-brand {
+	color: white;
+}
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+.altay_text_navbar {
+	font-family: Abril Fatface;
+}
+
+
+/*HOME SECTION*/
+.jumbotron {
+	background: url("cover.jpg") center center / cover no-repeat;
+}
+.altay-text {
+	font-family: Source Code Pro;
+	color: black;
+	font-size: 70px;
+}
+.altay-text1 {
+	font-family: Courgette;
+	font-size: 23px;
+}
+.img-thumbnail {
+	height: 22.5rem;
+}
+#mrgn {
+	margin-top: 20px;
+}
+
+
+/*ABOUT SECTION*/
+#About {
+	background:	#FFF1;
+}
+#about-box {
+	background: #F0F0F0;
+}
+#AboutBoxText {
+	margin: 0px;
+	padding: 0px;
+	font-family: Source Code Pro;
+}
+.about_text_decoration {
+	text-decoration: underline;
+	font-weight: bold;
+}
+.imageThumbnail {
+	height: 40rem;
+	width: 30rem;
+}
+#icons {
+	margin-left: 14rem;
+}
+#fb {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 13.5px;
+	padding-left: 13.5px;
+	border-radius: 2%;
+	background: #4267B2;
+}
+#email {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 11px;
+	padding-left: 11px;
+	border-radius: 2%;
+	background: red;
+}
+
+
+/*PUBLICATIONS SECTION*/
+#Publications {
+	background: #F8F8F8;
+}
+.border-down {
+	padding-bottom: 20px;
+	border-bottom: 2px solid grey;
+}
+a i {
+	color: white;
+}
+th, td {
+	padding: 10px;
+	text-align: center;
+	font-size: 20px;
+}
+tr:nth-child(even){
+	background-color: #52658F;
+}
+tr:nth-child(odd){
+	background-color: #333A56;
+}
+td a {
+	color: #F9F9F9;
+	font-family: Calibri;
+}
+td a:hover {
+	color: #F7F5E6;
+	font-family: Calibri;
+}
+
+
+/*NEWS SECTION*/
+.card-whole {
+	width: 18rem;
+	height: 27rem;
+}
+
+.card-image {
+	height: 13rem;
+}
+
+.center-style {
+	margin: 0 auto;
+	float: none;
+	margin-bottom: 10px;
+}
+
+.DotNav {
+	cursor: pointer;
+	height: 15px;
+	width: 15px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .DotNav:hover {
+	background-color: #717171;
+}
+
+#forward, #backward {
+	cursor: pointer;
+	padding: 20px 40px 20px 40px;
+	background: #F0F0F0;
+	transition: background-color 0.6s ease;
+}
+
+#forward:hover, #backward:hover {
+	background: #A8A8A8;
+} 
+
+#forward {
+	margin-right: 2.5px;
+}
+
+#backward {
+	margin-left: 2.5px;
+}
+
+/*VIDEOS SECTION*/
+#Videos {
+	background: #F1F1F1;
+}
+
+
+/*FOOTER SECTION*/
+footer {
+	background: #1034A6;
+}
+
+footer p {
+	margin: 0px;
+	color: white;
+}
+
+#fb-footer {
+	margin-right: 1rem;
+}
+
+#email-footer {
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+#instagram-footer {
+	margin-left: 1rem;
+}
+
+
+@media only screen and (max-width: 600px) {
+	#Home, #About, #Publications, #News, #Videos {
+		margin: 0px;
+		padding-top: 240px;
+	}
+}
